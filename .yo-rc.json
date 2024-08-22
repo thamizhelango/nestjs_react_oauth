@@ -1,0 +1,34 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "oauth2",
+    "baseName": "nestjsreactoauth",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "3.0.0"
+      }
+    ],
+    "clientFramework": "react",
+    "clientTestFrameworks": ["cypress"],
+    "clientTheme": "none",
+    "creationTimestamp": 1724315617409,
+    "cypressAudit": true,
+    "cypressCoverage": null,
+    "devServerPort": 9060,
+    "enableTranslation": true,
+    "entities": ["Region", "Country", "Location", "Department", "Task", "Employee", "Job", "JobHistory"],
+    "jhipsterVersion": "8.5.0",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1724317983000,
+    "microfrontend": null,
+    "microfrontends": [],
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "prodDatabaseType": "postgresql",
+    "serverPort": null,
+    "skipCommitHook": true,
+    "testFrameworks": ["cypress"],
+    "withAdminUi": true
+  }
+}
